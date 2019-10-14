@@ -28,6 +28,7 @@ public class CallAnotherCont {
 		Person1 p = noName.returnItSelf();
 		System.out.println(p);
 		System.out.println(noName);
+		System.out.println(noName);
 		
 	}
 }
