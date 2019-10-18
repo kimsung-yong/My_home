@@ -13,10 +13,10 @@ public class PracticeProblomP197Q5_Person {
 		this.money = money;
 	}
 	
-	public int purChase(int money) {
+	public void purChase(Store store,int money) {
 		this.money -= money;
 		Store.sell(money);
-		return this.money;
+		
 	}
 	
 	public void showInfo() {

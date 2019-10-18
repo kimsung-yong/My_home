@@ -1,7 +1,7 @@
 package PracticeProblom;
 
 public class Store {
-      static int money;
+      private static int money;
       static int sellNum;
       public Store() {
     	  
