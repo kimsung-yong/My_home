@@ -16,7 +16,7 @@ public class HeapSort implements Sort {
 	
 	@Override
 	public void description() {
-		System.out.println("숫자를 정렬 하는 알고리즘입니다");
+		
 		System.out.println("HeapSort 입니다");
 		
 	}

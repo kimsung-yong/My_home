@@ -1,21 +1,27 @@
 package chapter5;
 
 public class Student {
-
-	int studentId;
+	int studentID;
 	String studentName;
 	int grade;
 	String address;
 	
-	public String getStudentName() {
+	public void showInfO() {
+		System.out.println(studentName +"," + address);
+	}
+	
+	void setStudentName(String name) {
+		this.studentName = name;
+	}
+	String getStudentName() {
 		return studentName;
 	}
+	
 	public static void main(String[] argvs) {
-		Student studentAnn = new Student();
-		studentAnn.studentName = "안연수";
+		Student studentKim = new Student();
+		studentKim.setStudentName("김미라");
+		System.out.println(studentKim.getStudentName());
 		
-		System.out.println(studentAnn.studentName);
-		System.out.println(studentAnn.getStudentName());
+		
 	}
 }
-
